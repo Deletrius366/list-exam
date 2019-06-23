@@ -206,7 +206,7 @@ public:
     typedef std::reverse_iterator<const_iterator> const_reverse_iterator;
 
     list() noexcept {}
-    list(list const& other) {
+    list(list const& other) : list() {
         for (auto it = other.begin(); it != other.end(); ++it) {
             push_back(*it);
         }
