@@ -9,6 +9,7 @@
 #include <iterator>
 #include <memory>
 #include <assert.h>
+#include <cstddef>
 
 template <typename T> struct base_node;
 template <typename T> struct node;
